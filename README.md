@@ -1,4 +1,4 @@
-# Virtual Cybersecurity Lab
+# Threat Detection Lab
 
 ## Objective
 This project aimed to establish a controlled environment for simulating, detecting, and analyzing cyber attacks using open source security tools. The primary focus was to create an integrated security monitoring system with Wazuh SIEM, Suricata IDS/IPS, and Sysmon endpoint monitoring to collect, correlate, and analyze security events. This hands-on environment was designed to provide practical experience in attack detection, threat hunting, and security operations.

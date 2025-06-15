@@ -3,6 +3,7 @@
 ## Objective
 This project aimed to establish a controlled environment for simulating, detecting, and analyzing cyber attacks using open source security tools. The primary focus was to create an integrated security monitoring system with Wazuh SIEM, Suricata IDS/IPS, and Sysmon endpoint monitoring to collect, correlate, and analyze security events. This hands-on environment was designed to provide practical experience in attack detection, threat hunting, and security operations.
 
+
 ### Skills Learned
 
 * **SIEM Deployment & Management**: Deployed and configured Wazuh for centralized log collection, security event analysis, and real-time alerting.
@@ -16,6 +17,7 @@ This project aimed to establish a controlled environment for simulating, detecti
 * **Virtual Network Architecture**: Designed and configured virtual networks using VirtualBox NAT and internal networking for isolated lab environments.
 * **Log Analysis & Alert Triage**: Interpreted and analyzed security logs, prioritized alerts, and refined detection strategies based on observed activity.
 
+
 ## Lab Components
 
 | Component         | Purpose                                      |
@@ -28,6 +30,7 @@ This project aimed to establish a controlled environment for simulating, detecti
 | **VirtualBox**     | Virtualization platform managing the entire lab |
 | **Sysmon**         | Windows endpoint telemetry (process, registry, network logs) |
 | **MITRE ATT&CK**   | Adversary tactics and techniques mapping |
+
 
 ## Network Architecture
 
@@ -67,6 +70,7 @@ flowchart TB
 
 ```
 
+
 ## Attack Simulations
 
 The following attacks were simulated in the lab to generate telemetry and test detections:
@@ -89,6 +93,7 @@ The following attacks were simulated in the lab to generate telemetry and test d
 * Wazuh rules tuned to correlate multiple event types for higher-fidelity alerts.
 * Detections mapped to MITRE ATT\&CK framework for better coverage visibility.
 
+
 ## Sample Screenshots
 
 * **Suricata Alert Logs**: Custom rules detecting simulated attack traffic.
@@ -99,6 +104,7 @@ The following attacks were simulated in the lab to generate telemetry and test d
 * **Wazuh Dashboard**: Showing real-time alerts and event correlation.
 ![Screenshot 2025-06-11 093158](https://github.com/user-attachments/assets/45e07a07-d22f-4514-ba24-cf8e8d5999ad)
 ![Screenshot 2025-06-11 093753](https://github.com/user-attachments/assets/fde02870-feb6-4f4d-9a4a-08a66c833989)
+
 
 ## Next Steps & Future Improvements
 

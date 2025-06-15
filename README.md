@@ -16,8 +16,6 @@ This project aimed to establish a controlled environment for simulating, detecti
 * **Virtual Network Architecture**: Designed and configured virtual networks using VirtualBox NAT and internal networking for isolated lab environments.
 * **Log Analysis & Alert Triage**: Interpreted and analyzed security logs, prioritized alerts, and refined detection strategies based on observed activity.
 
----
-
 ## Lab Components
 
 | Component         | Purpose                                      |
@@ -30,8 +28,6 @@ This project aimed to establish a controlled environment for simulating, detecti
 | **VirtualBox**     | Virtualization platform managing the entire lab |
 | **Sysmon**         | Windows endpoint telemetry (process, registry, network logs) |
 | **MITRE ATT&CK**   | Adversary tactics and techniques mapping |
-
----
 
 ## Network Architecture
 
@@ -70,7 +66,6 @@ flowchart TB
     Kali -->|Observed Traffic| Suricata
 
 ```
----
 
 ## Attack Simulations
 
@@ -85,7 +80,6 @@ The following attacks were simulated in the lab to generate telemetry and test d
 * Malware execution simulations
 * MITRE ATT\&CK-based Atomic Red Team test cases
 
----
 
 ##  Detection Strategy
 
@@ -94,8 +88,6 @@ The following attacks were simulated in the lab to generate telemetry and test d
 * Custom Suricata rules modified to detect scanning, exploits, and command & control activity.
 * Wazuh rules tuned to correlate multiple event types for higher-fidelity alerts.
 * Detections mapped to MITRE ATT\&CK framework for better coverage visibility.
-
----
 
 ## Sample Screenshots
 
@@ -107,10 +99,6 @@ The following attacks were simulated in the lab to generate telemetry and test d
 * **Wazuh Dashboard**: Showing real-time alerts and event correlation.
 ![Screenshot 2025-06-11 093158](https://github.com/user-attachments/assets/45e07a07-d22f-4514-ba24-cf8e8d5999ad)
 ![Screenshot 2025-06-11 093753](https://github.com/user-attachments/assets/fde02870-feb6-4f4d-9a4a-08a66c833989)
-
-
-
----
 
 ## Next Steps & Future Improvements
 
